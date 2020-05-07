@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<openerp>
+
+    <act_window id="action_disque"
+                name="Liste des CD et Vinyls"
+                res_model="Disque"
+                view_mode="tree,form"/>
+
+    <act_window id="action_disque_genre"
+                name="Gestion des genres"
+                res_model="Genre"
+                view_mode="tree,form"/>
+
+    <act_window id="action_disque_artiste"
+                name="Gestion des Artistes / Groupes"
+                res_model="Artiste"
+                view_mode="tree,form"/>
+
+    <act_window id="action_disque_pays"
+                name="Liste des pays"
+                res_model="Pays"
+                view_mode="tree,form"/>
+
+    <act_window id="action_disque_annee"
+                name="Liste des années"
+                res_model="Annee"
+                view_mode="tree,form"/>
+
+    <!--context="{'default_state':'open'}" domain="[]"-->
+
+    <!-- Menu Item to open traitement list -->
+    <menuitem id="menu_disque"
+              name="Albums"
+              action="action_disque"
+              sequence="0"/>
+
+    <menuitem id="menu_disque_genre"
+              name="Genres"
+              action="action_disque_genre"
+              sequence="1"/>
+
+    <menuitem id="menu_disque_artiste"
+              name="Artistes"
+              action="action_disque_artiste"
+              sequence="2"/>
+
+<!--    <menuitem id="menu_disque_pays"
+              name="Pays"
+              action="action_disque_pays"
+              sequence="3"/>-->
+
+<!--    <menuitem id="menu_disque_annee"
+              name="Années"
+              action="action_disque_annee"
+              sequence="4"/>-->
+
+</openerp>
