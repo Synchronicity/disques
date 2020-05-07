@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 from openerp import http
 
-# class Vinyls(http.Controller):
-#     @http.route('/vinyls/vinyls/', auth='public')
+# class disques(http.Controller):
+#     @http.route('/disques/disques/', auth='public')
 #     def index(self, **kw):
 #         return "Hello, world"
 
-#     @http.route('/vinyls/vinyls/objects/', auth='public')
+#     @http.route('/disques/disques/objects/', auth='public')
 #     def list(self, **kw):
-#         return http.request.render('vinyls.listing', {
-#             'root': '/vinyls/vinyls',
-#             'objects': http.request.env['vinyls.vinyls'].search([]),
+#         return http.request.render('disques.listing', {
+#             'root': '/disques/disques',
+#             'objects': http.request.env['disques.disques'].search([]),
 #         })
 
-#     @http.route('/vinyls/vinyls/objects/<model("vinyls.vinyls"):obj>/', auth='public')
+#     @http.route('/disques/disques/objects/<model("disques.disques"):obj>/', auth='public')
 #     def object(self, obj, **kw):
-#         return http.request.render('vinyls.object', {
+#         return http.request.render('disques.object', {
 #             'object': obj
 #         })

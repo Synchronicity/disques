@@ -2,7 +2,7 @@
 <openerp>
     <record id="view_tree_artiste" model="ir.ui.view">
         <field name="name">Artiste tree</field>
-        <field name="model">vinyl.artiste</field>
+        <field name="model">Artiste</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
@@ -13,7 +13,7 @@
 
     <record id="view_form_artiste" model="ir.ui.view">
         <field name="name">Artiste form</field>
-        <field name="model">vinyl.artiste</field>
+        <field name="model">Artiste</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>

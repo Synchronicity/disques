@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "vinyls",
+    'name': "disques",
 
     'summary': """
-        Gestion des vinyls et des CD
+        Gestion des disques et des CDs
         Albums - Genre - Artistes / Groupes""",
 
     'description': """
@@ -11,7 +11,7 @@
     """,
 
     'author': "JLS_181120",
-    'website': "http://192.168.56.101:8069",
+    'website': "http://192.168.56.102:8069",
     'application': True,
 
     # Categories can be used to filter modules in modules listing
@@ -26,8 +26,8 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/vinyl_views.xml',
-        'views/vinyl_menu.xml',
+        'views/disque_views.xml',
+        'views/disque_menu.xml',
         'views/artiste_views.xml',
     ],
 }

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from . import Vinyl
+from . import Disque
 from . import Genre
 from . import Artiste
 from . import Pays

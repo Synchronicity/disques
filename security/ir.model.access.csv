@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_vinyls_vinyls,vinyls.vinyls,model_vinyls_vinyls,,1,0,0,0
+access_disques,disque.titre,model_disque,1,0,0,0
