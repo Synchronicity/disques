@@ -1,6 +1,8 @@
 # Compiled source #
 ###################
-*.idea
+/.idea/
+/venv/
+/demo/
 *.pyc
 
 
